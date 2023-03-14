@@ -7,6 +7,15 @@ I use the same method that the 'Wallpapers Engines' use in windows, to make an O
 
 -  Activation: **INSERT**
 
+# Librarys
+
+These are the APIs that this project uses, download and add them.
+
+- [Memory.dll](https://github.com/erfg12/memory.dll/)
+- [Xylon.PH.dll](https://github.com/DestroyerDarkNess/Xylon.PH)
+- [InputHelper.dll](https://github.com/Visual-Vincent/InputHelper) 
+
+
 # Features
 
 Pros
