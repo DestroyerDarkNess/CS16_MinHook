@@ -113,9 +113,14 @@ Public Class Form1
 
             MouseHook = New InputHelper.Hooks.MouseHook
             KeyboardHook = New InputHelper.Hooks.KeyboardHook
+
             CheatT = New Thread(AddressOf CheatsThread) With {.Name = "CheatHook", .IsBackground = True, .Priority = ThreadPriority.Highest}
             RespondingThread.Start()
             CheatT.Start()
+
+            ' Load Cheats By Settings
+
+            OneLoadCheats()
 
         Catch ex As Exception
             MessageBox.Show(ex.Message, "CS 1.6 Mini Hook By Destroyer", MessageBoxButtons.OK, MessageBoxIcon.Error)
@@ -213,16 +218,27 @@ Public Class Form1
         MenuOptions.Glasswall = (GlasswallOnOffSwitch.Toggled = LogInOnOffSwitch.Toggles.Toggled)
         MenuOptions.Save()
 
-        If MenuOptions.Glasswall = True Then
-            Memory.WriteMemory(Core.Cheats.GLDepthFunc, "int", "519")
-        Else
-            Memory.WriteMemory(Core.Cheats.GLDepthFunc, "int", "515")
-        End If
+        OneLoadCheats()
     End Sub
 
     Private Sub NoSmokeOnOffSwitch_ToggleChanged(sender As Object) Handles NoSmokeOnOffSwitch.ToggleChanged
         MenuOptions.No_Smoke = (NoSmokeOnOffSwitch.Toggled = LogInOnOffSwitch.Toggles.Toggled)
         MenuOptions.Save()
+
+        OneLoadCheats()
+    End Sub
+
+    Private Sub NoRecoilTrackBar_ValueChanged() Handles NoRecoilTrackBar.ValueChanged
+        MenuOptions.No_Recoil_Val = NoRecoilTrackBar.Value
+        MenuOptions.Save()
+    End Sub
+
+    Private Sub OneLoadCheats()
+        If MenuOptions.Glasswall = True Then
+            Memory.WriteMemory(Core.Cheats.GLDepthFunc, "int", "519")
+        Else
+            Memory.WriteMemory(Core.Cheats.GLDepthFunc, "int", "515")
+        End If
 
         If MenuOptions.No_Smoke = True Then
             Memory.WriteMemory(Core.Cheats.NoSmoke, "string", "Null.spr")
@@ -231,10 +247,6 @@ Public Class Form1
         End If
     End Sub
 
-    Private Sub NoRecoilTrackBar_ValueChanged() Handles NoRecoilTrackBar.ValueChanged
-        MenuOptions.No_Recoil_Val = NoRecoilTrackBar.Value
-        MenuOptions.Save()
-    End Sub
 
 #End Region
 
