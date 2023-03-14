@@ -15,12 +15,16 @@ Contra
 
 # Preview
 
+https://user-images.githubusercontent.com/32405118/225082719-d1f5ee41-9186-4e8d-8456-8cc1305c04aa.mp4
 
+# Testing
 
+```
+ 'For CounterStrike1.6v43i 
 
+    'Protocol version 48
+    'Exe version 1.1.2.6/2.0.0.0 (cstrike)
+    'Exe build: 16:05:41 Jun 15 2009 (4554)
 
-
-
-
-
+```
 
