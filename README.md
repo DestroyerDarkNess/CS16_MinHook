@@ -5,6 +5,10 @@ It is a small Cheat for CS 1.6, As a sample of a new concept of Overlay in windo
 
 I use the same method that the 'Wallpapers Engines' use in windows, to make an Overlay type. I've only tried it in Counter Strike, in OpenGL mode.
 
+-  Activation: **INSERT**
+
+# Features
+
 Pros
 
 - Completely External, even if it pretends to be Internal.
