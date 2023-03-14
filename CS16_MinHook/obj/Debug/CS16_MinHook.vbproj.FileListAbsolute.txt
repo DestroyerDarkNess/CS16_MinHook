@@ -1,0 +1,15 @@
+c:\users\indatech\documents\visual studio 2012\Projects\CS16_MinHook\CS16_MinHook\bin\Debug\CS16_MinHook.exe.config
+c:\users\indatech\documents\visual studio 2012\Projects\CS16_MinHook\CS16_MinHook\bin\Debug\CS16_MinHook.exe
+c:\users\indatech\documents\visual studio 2012\Projects\CS16_MinHook\CS16_MinHook\bin\Debug\CS16_MinHook.pdb
+c:\users\indatech\documents\visual studio 2012\Projects\CS16_MinHook\CS16_MinHook\bin\Debug\CS16_MinHook.xml
+c:\users\indatech\documents\visual studio 2012\Projects\CS16_MinHook\CS16_MinHook\obj\Debug\CS16_MinHook.Form1.resources
+c:\users\indatech\documents\visual studio 2012\Projects\CS16_MinHook\CS16_MinHook\obj\Debug\CS16_MinHook.Resources.resources
+c:\users\indatech\documents\visual studio 2012\Projects\CS16_MinHook\CS16_MinHook\obj\Debug\CS16_MinHook.vbproj.GenerateResource.Cache
+c:\users\indatech\documents\visual studio 2012\Projects\CS16_MinHook\CS16_MinHook\obj\Debug\CS16_MinHook.exe
+c:\users\indatech\documents\visual studio 2012\Projects\CS16_MinHook\CS16_MinHook\obj\Debug\CS16_MinHook.xml
+c:\users\indatech\documents\visual studio 2012\Projects\CS16_MinHook\CS16_MinHook\obj\Debug\CS16_MinHook.pdb
+c:\users\indatech\documents\visual studio 2012\Projects\CS16_MinHook\CS16_MinHook\bin\Debug\Xylon.PH.dll
+c:\users\indatech\documents\visual studio 2012\Projects\CS16_MinHook\CS16_MinHook\obj\Debug\CS16_MinHook.vbprojResolveAssemblyReference.cache
+C:\Users\Indatech\documents\visual studio 2012\Projects\CS16_MinHook\CS16_MinHook\bin\Debug\Memory.dll
+C:\Users\Indatech\documents\visual studio 2012\Projects\CS16_MinHook\CS16_MinHook\bin\Debug\InputHelper.dll
+C:\Users\Indatech\documents\visual studio 2012\Projects\CS16_MinHook\CS16_MinHook\bin\Debug\InputHelper.pdb
